@@ -5,7 +5,7 @@ date: "Monday, November 16, 2015"
 output: html_document
 ---
 
-# Getting Raw RNA-Seq Data from TCGA.
+# DE analysis with Raw TCGA data using Bioconductor's AnnotationHub and DESeq2
 
 TCGA re-processed RNA-Seq data from 9264 Tumor Samples and 741 normal samples
 across 24 cancer types and made it available via [GSE62944](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944) from GEO.
@@ -72,3 +72,5 @@ res <- results(dds)
 summary(res)
 
 ```
+
+For a detailed RNASeq analysis see [Mike Love's RNASeq workflow](http://www.bioconductor.org/help/workflows/rnaseqGene/)
