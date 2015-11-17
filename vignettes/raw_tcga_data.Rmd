@@ -8,7 +8,7 @@ output: html_document
 # Getting Raw RNA-Seq Data from TCGA.
 
 TCGA re-processed RNA-Seq data from 9264 Tumor Samples and 741 normal samples
-across 24 cancer types and made it available via GSE62944 from GEO.
+across 24 cancer types and made it available via [GSE62944](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944) from GEO.
 This data is also available as an ExpressionSet from AnnotationHub and
 can be used for Differential Expression Analysis.
 
